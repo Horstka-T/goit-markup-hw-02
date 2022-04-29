@@ -1,3 +1,75 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --link-color: #2196F3;
+    --button-bgcolor: #F5F4FA;
+    --button-text-color: #FFFFFF;
+
+
+
+
+}
 body {
-    background: #FFFFFF;
+    background: #E5E5E5;
+    color: #757575;
+}
+
+.header {
+    background: #FFFFFF
+}
+
+/* Кольори основного тексту #757575 */
+/* Вторинний колір #212121 */
+/* Колір лінку #2196F3 */
+/* background header #FFFFFF*/
+/* background (buttons) #2196F3 */
+/* background (body) #E5E5E5 */
+/* background (footer) #2F303A */
+
+.list {
+    list-style: none;
+}
+
+.contacts {
+    color: var(--title-text-color);
+}
+
+/*Button*/
+.button {
+    color: var(--title-text-color);
+    background: var(--link-color);
+}
+
+.button.primary {
+    background: var(--link-color);
+    color: var(--button-text-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color)
+    background: var(--button-bgcolor);
+}
+
+.contacts:hover,
+.contacts:focus,
+.contacts:active {
+    color: var(--link-color);
+}
+
+.project-name {
+font-family: 'Roboto';
+font-style: normal;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+
+.project-type {
+font-family: 'Roboto';
+font-style: normal;
+letter-spacing: 0.03em; 
+color: var(--primary-text-color);
+}
+
+.project:hover {
+
 }
