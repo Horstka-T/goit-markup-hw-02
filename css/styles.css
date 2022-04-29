@@ -1,7 +1,7 @@
 :root {
     --primary-text-color: #757575;
     --title-text-color: #212121;
-    --link-color: #2196F3;
+    --accent-color: #2196F3;
     --button-bgcolor: #F5F4FA;
     --button-text-color: #FFFFFF;
 
@@ -30,6 +30,10 @@ body {
     list-style: none;
 }
 
+.site-nav .link .current {
+    color: var(--accent-color);
+}
+
 .contacts {
     color: var(--title-text-color);
 }
@@ -37,23 +41,23 @@ body {
 /*Button*/
 .button {
     color: var(--title-text-color);
-    background: var(--link-color);
+    background: var(--accent-color);
 }
 
 .button.primary {
-    background: var(--link-color);
     color: var(--button-text-color);
+    background: var(--accent-color);
 }
 
 .button.secondary {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
     background: var(--button-bgcolor);
 }
 
 .contacts:hover,
 .contacts:focus,
 .contacts:active {
-    color: var(--link-color);
+    color: var(--accent-color);
 }
 
 .project-name {
