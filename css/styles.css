@@ -6,17 +6,50 @@
     --button-text-color: #FFFFFF;
 
 
+    --logo-color1: #2196F3;
+    --logo-color2: #212121;
+
 
 
 }
 body {
+    font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
     color: #757575;
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Header */
+
 .header {
     background: #FFFFFF
 }
+
+.logo-left {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color1)
+}
+
+.logo-right {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color2)
+}
+
 
 /* Кольори основного тексту #757575 */
 /* Вторинний колір #212121 */
@@ -26,9 +59,7 @@ body {
 /* background (body) #E5E5E5 */
 /* background (footer) #2F303A */
 
-.list {
-    list-style: none;
-}
+
 
 .site-nav .link .current {
     color: var(--accent-color);
