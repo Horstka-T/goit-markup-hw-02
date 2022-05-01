@@ -144,19 +144,22 @@ section {
     line-height: 1.62;
 }
 
-.button.primary {
-    color: var(--main-color);
-    background: var(--accent-color);
-}
 
-.button.secondary {
+.button {
     color: var(--secondary-color);
     background: var(--team-background);
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
 }
 
 .button-hero:hover,
 .button-hero:focus {
     background-color: var(--button-hero-color);
+    cursor: pointer;
 }
 
 /*Projects*/
@@ -182,9 +185,7 @@ footer {
 }
 
 .contacts {
-    font-family: inherit;
     color: var(--main-color) 60%;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em
@@ -197,7 +198,6 @@ footer {
 
 .contacts-map {
     font-family: inherit;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
