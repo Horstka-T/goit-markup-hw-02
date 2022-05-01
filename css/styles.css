@@ -16,14 +16,6 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
-h2,
-h3 {
-    font-family: 'Roboto', sans-serif;
-}
-
-.logo-left .logo-right. .logo-right-down {
-    font-family: 'Raleway', sans-serif; 
-}
 
 .list {
     list-style: none;
@@ -39,8 +31,6 @@ h3 {
 }
 
 .site-nav {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -55,8 +45,6 @@ h3 {
     }
     
  .header-contacts {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -96,6 +84,12 @@ h3 {
     letter-spacing: 0.03em;
     color: var(--button-text-color)
 }
+
+.logo-left .logo-right .logo-right-down {
+    font-family: 'Raleway', sans-serif; 
+}
+
+
 /* Hero */
 
 .hero {
@@ -120,7 +114,16 @@ h3 {
 /* background (body) #E5E5E5 */
 /* background (footer) #2F303A */
 
+.section-title {
 
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+}
 
 .contacts {
     color: var(--title-text-color);
@@ -149,40 +152,28 @@ h3 {
 /*Projects*/
 
 .project-name {
-font-family: 'Roboto';
-font-style: normal;
 letter-spacing: 0.06em;
 color: var(--title-text-color);
 }
 
 .project-type {
-font-family: 'Roboto';
-font-style: normal;
 letter-spacing: 0.03em; 
 color: var(--primary-text-color);
 }
 
-.project:hover {
-
-}
-
 /* Footer */
-.contacts {
+.footer-contacts {
     color: var(--button-text-color) 60%; 
 }
-
-
 
 .current {
     color: var(--accent-color);
 }
 
 .adress {
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--button-text-color);
 }
