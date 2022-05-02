@@ -157,6 +157,7 @@ letter-spacing: 0.03em;
 /*Button*/
 
 .button {
+    font-family: inherit;
     color: var(--secondary-color);
     background: var(--accent-color);
     font-weight: 500;
