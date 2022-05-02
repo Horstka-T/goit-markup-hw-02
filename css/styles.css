@@ -199,6 +199,10 @@ footer {
     background: var(--footer-background)
 }
 
+address {
+    font-style: normal;
+}
+
 .contacts {
     color: var(--main-color) 60%;
     font-size: 14px;
@@ -223,3 +227,4 @@ footer {
 .contacts-map:focus {
     color: var(--accent-color);
 }
+
